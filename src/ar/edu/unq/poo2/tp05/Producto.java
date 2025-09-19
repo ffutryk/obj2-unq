@@ -16,4 +16,9 @@ public class Producto implements Pagable {
 	public void alSerPagado() {
 		stock -= 1;
 	}
+	
+	// Agregado para testing
+	public int getStock() {
+		return stock;
+	}
 }
